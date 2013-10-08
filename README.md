@@ -21,14 +21,15 @@ $ git clone https://github.com/Juanpe/JPSRTParser.git
 
 - Create a ```JPSRTParser``` with SRT file or SRT URL and execute parse method. Example:
 
-- Synchronous
+
 ```objc
     JPSRTParser* parser = [[JPSRTParser alloc] initWithContentOfSRTFile:[[NSBundle mainBundle] pathForResource:@"tst" ofType:@"srt"]];
     NSArray* subtitles 	= [parser parse];
     NSLog(@"Subtitles %@",subtitles);
 ```
 
-- Blocks
+Or, with blocks
+
 ```objc
     JPSRTParser* parser = [[JPSRTParser alloc] initWithContentOfSRTFile:[[NSBundle mainBundle] pathForResource:@"tst" ofType:@"srt"]];
     [parser parseCompletion:^(JPSRTParsingState status, NSArray* subtitles){
