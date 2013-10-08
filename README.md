@@ -10,9 +10,7 @@ Parser of SRT files
 $ git clone https://github.com/Juanpe/JPSRTParser.git
 ```
 
-- Check out the sample project.
-
-- Drag the ```JPSRTParser.h```,```JPSRTParser.m```,```JPSRTParserNode.h```,```JPSRTParserNode.m``` files into your project.
+- Drag the ```JPSRTParserTool``` folder into your project.
 - Include the header file:
 
 ```objc

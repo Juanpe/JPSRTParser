@@ -8,15 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0440D8AD17FC7525008CAED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440D8AC17FC7525008CAED4 /* Foundation.framework */; };
-		0440D8B217FC7525008CAED4 /* JPSRTParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0440D8B117FC7525008CAED4 /* JPSRTParser.h */; };
-		0440D8B417FC7525008CAED4 /* JPSRTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D8B317FC7525008CAED4 /* JPSRTParser.m */; };
 		0440D8BB17FC7526008CAED4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440D8BA17FC7526008CAED4 /* XCTest.framework */; };
 		0440D8BC17FC7526008CAED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440D8AC17FC7525008CAED4 /* Foundation.framework */; };
 		0440D8BE17FC7526008CAED4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440D8BD17FC7526008CAED4 /* UIKit.framework */; };
 		0440D8C117FC7526008CAED4 /* libJPSRTParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440D8A917FC7525008CAED4 /* libJPSRTParser.a */; };
-		0440D8C717FC7526008CAED4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0440D8C517FC7526008CAED4 /* InfoPlist.strings */; };
-		0440D8C917FC7526008CAED4 /* JPSRTParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D8C817FC7526008CAED4 /* JPSRTParserTests.m */; };
-		0440D8D417FC8519008CAED4 /* JPSRTParserNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D8D317FC8519008CAED4 /* JPSRTParserNode.m */; };
+		0483D7F4180459C7000C39E5 /* JPSRTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483D7F1180459C7000C39E5 /* JPSRTParser.m */; };
+		0483D7F5180459C7000C39E5 /* JPSRTParserNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0483D7F3180459C7000C39E5 /* JPSRTParserNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +33,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0440D8B217FC7525008CAED4 /* JPSRTParser.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,16 +42,13 @@
 		0440D8A917FC7525008CAED4 /* libJPSRTParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJPSRTParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440D8AC17FC7525008CAED4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0440D8B017FC7525008CAED4 /* JPSRTParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPSRTParser-Prefix.pch"; sourceTree = "<group>"; };
-		0440D8B117FC7525008CAED4 /* JPSRTParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPSRTParser.h; sourceTree = "<group>"; };
-		0440D8B317FC7525008CAED4 /* JPSRTParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPSRTParser.m; sourceTree = "<group>"; };
 		0440D8B917FC7526008CAED4 /* JPSRTParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPSRTParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440D8BA17FC7526008CAED4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0440D8BD17FC7526008CAED4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0440D8C417FC7526008CAED4 /* JPSRTParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JPSRTParserTests-Info.plist"; sourceTree = "<group>"; };
-		0440D8C617FC7526008CAED4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0440D8C817FC7526008CAED4 /* JPSRTParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPSRTParserTests.m; sourceTree = "<group>"; };
-		0440D8D217FC8519008CAED4 /* JPSRTParserNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSRTParserNode.h; sourceTree = "<group>"; };
-		0440D8D317FC8519008CAED4 /* JPSRTParserNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSRTParserNode.m; sourceTree = "<group>"; };
+		0483D7F0180459C7000C39E5 /* JPSRTParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSRTParser.h; sourceTree = "<group>"; };
+		0483D7F1180459C7000C39E5 /* JPSRTParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSRTParser.m; sourceTree = "<group>"; };
+		0483D7F2180459C7000C39E5 /* JPSRTParserNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSRTParserNode.h; sourceTree = "<group>"; };
+		0483D7F3180459C7000C39E5 /* JPSRTParserNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSRTParserNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				0440D8AE17FC7525008CAED4 /* JPSRTParser */,
-				0440D8C217FC7526008CAED4 /* JPSRTParserTests */,
 				0440D8AB17FC7525008CAED4 /* Frameworks */,
 				0440D8AA17FC7525008CAED4 /* Products */,
 			);
@@ -113,11 +105,8 @@
 		0440D8AE17FC7525008CAED4 /* JPSRTParser */ = {
 			isa = PBXGroup;
 			children = (
-				0440D8B117FC7525008CAED4 /* JPSRTParser.h */,
-				0440D8B317FC7525008CAED4 /* JPSRTParser.m */,
+				0483D7EF180459C7000C39E5 /* JPSRTParserTool */,
 				0440D8AF17FC7525008CAED4 /* Supporting Files */,
-				0440D8D217FC8519008CAED4 /* JPSRTParserNode.h */,
-				0440D8D317FC8519008CAED4 /* JPSRTParserNode.m */,
 			);
 			path = JPSRTParser;
 			sourceTree = "<group>";
@@ -130,22 +119,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0440D8C217FC7526008CAED4 /* JPSRTParserTests */ = {
+		0483D7EF180459C7000C39E5 /* JPSRTParserTool */ = {
 			isa = PBXGroup;
 			children = (
-				0440D8C817FC7526008CAED4 /* JPSRTParserTests.m */,
-				0440D8C317FC7526008CAED4 /* Supporting Files */,
+				0483D7F0180459C7000C39E5 /* JPSRTParser.h */,
+				0483D7F1180459C7000C39E5 /* JPSRTParser.m */,
+				0483D7F2180459C7000C39E5 /* JPSRTParserNode.h */,
+				0483D7F3180459C7000C39E5 /* JPSRTParserNode.m */,
 			);
-			path = JPSRTParserTests;
-			sourceTree = "<group>";
-		};
-		0440D8C317FC7526008CAED4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0440D8C417FC7526008CAED4 /* JPSRTParserTests-Info.plist */,
-				0440D8C517FC7526008CAED4 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = JPSRTParserTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,7 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440D8C717FC7526008CAED4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,8 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440D8D417FC8519008CAED4 /* JPSRTParserNode.m in Sources */,
-				0440D8B417FC7525008CAED4 /* JPSRTParser.m in Sources */,
+				0483D7F4180459C7000C39E5 /* JPSRTParser.m in Sources */,
+				0483D7F5180459C7000C39E5 /* JPSRTParserNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440D8C917FC7526008CAED4 /* JPSRTParserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,17 +231,6 @@
 			targetProxy = 0440D8BF17FC7526008CAED4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0440D8C517FC7526008CAED4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0440D8C617FC7526008CAED4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0440D8CA17FC7526008CAED4 /* Debug */ = {
